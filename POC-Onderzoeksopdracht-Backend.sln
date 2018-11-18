@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService", "CarService\CarService.csproj", "{9A8F46C3-750A-4D17-BEAB-80A76BE95711}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorcycleService", "MotorcycleService\MotorcycleService.csproj", "{DDDF658A-1EC4-4635-A294-7A4F3D70475E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService", "CarService\CarService.csproj", "{A8E0481E-4FCA-4F9F-B139-255DB4414B1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A8F46C3-750A-4D17-BEAB-80A76BE95711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A8F46C3-750A-4D17-BEAB-80A76BE95711}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A8F46C3-750A-4D17-BEAB-80A76BE95711}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A8F46C3-750A-4D17-BEAB-80A76BE95711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDF658A-1EC4-4635-A294-7A4F3D70475E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDF658A-1EC4-4635-A294-7A4F3D70475E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDF658A-1EC4-4635-A294-7A4F3D70475E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDF658A-1EC4-4635-A294-7A4F3D70475E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E0481E-4FCA-4F9F-B139-255DB4414B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E0481E-4FCA-4F9F-B139-255DB4414B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E0481E-4FCA-4F9F-B139-255DB4414B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E0481E-4FCA-4F9F-B139-255DB4414B1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

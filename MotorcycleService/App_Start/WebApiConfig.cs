@@ -4,7 +4,7 @@ using System.Web.Http.Cors;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace CarService
+namespace MotorcycleService
 {
     public static class WebApiConfig
     {
@@ -16,7 +16,7 @@ namespace CarService
             config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
             config.Formatters.JsonFormatter.SerializerSettings.DateTimeZoneHandling = DateTimeZoneHandling.Utc;
             config.Formatters.JsonFormatter.SerializerSettings.DateFormatHandling = DateFormatHandling.IsoDateFormat;
-
+            
             // Web API routes
             config.MapHttpAttributeRoutes();
 
