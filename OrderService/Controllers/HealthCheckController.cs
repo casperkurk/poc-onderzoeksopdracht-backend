@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace CarService.Controllers
+namespace OrderService.Controllers
 {
     public class HealthCheckController: ApiController
     {
@@ -8,7 +8,7 @@ namespace CarService.Controllers
         [Route("api/checkhealth")]
         public IHttpActionResult CheckHealth()
         {
-            return Ok("carservice");
+            return Ok("orderservice");
         }
     }
 }

@@ -8,7 +8,7 @@ namespace MotorcycleService.Controllers
         [Route("api/checkhealth")]
         public IHttpActionResult CheckHealth()
         {
-            return Ok();
+            return Ok("motorcycleservice");
         }
     }
 }
