@@ -3,7 +3,7 @@ using OrderService.Models;
 
 namespace OrderService.Controllers
 {
-    public class OrderService : ApiController
+    public class OrderController : ApiController
     {
         [HttpPost]
         [Route("api/placeorder")]
